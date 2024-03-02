@@ -13,6 +13,23 @@ body{
     justify-content: center;
 }
 
+.hero-title{
+    font-size: 64px;
+}   
+
+.hero-desc{
+    font-size: 24px;
+}
+
+.btn-purple{
+background-color: #8d46F6;
+padding: 16px 40px;
+}
+
+.btn-purple:hover{
+    background-color: #7519ff;
+}
+
 @media (max-width: 991px){
     .menu-bg{
         background-color: #323335;
@@ -22,5 +39,11 @@ body{
     }
     .nav-link:nth-child(2){
         margin: 0 !important;
+    }
+    .hero-title{
+        font-size: 48px;
+    }
+    .hero-desc{
+        font-size: 20px;
     }
 }
