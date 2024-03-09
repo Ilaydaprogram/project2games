@@ -46,4 +46,8 @@ padding: 16px 40px;
     .hero-desc{
         font-size: 20px;
     }
+    .btn-purple{
+        display: block;
+        margin-bottom: 30px;
+    }
 }
