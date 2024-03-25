@@ -93,15 +93,29 @@ padding: 16px 40px;
     to{transform: rotate(368deg);}
 }
 
-.logi{
+.logo{
     animation-name: rotation;
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
+.dota-box, .gta-box, .fortnite-box{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    height: calc(100vh - 112px);
+}
 
-
+.dota-box{
+    background-image: url(img/pic/dota-big.png);
+}
+.gta-box{
+    background-image: url(img/pic/gta-big.png);
+}
+.fortnite-box{
+    background-image: url(img/pic/fortnite-big.png);
+}
 
 @media (max-width: 991px){
     .menu-bg{
